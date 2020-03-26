@@ -1,0 +1,46 @@
+PODS:
+  - MaterialComponents/AnimationTiming (103.0.0)
+  - MaterialComponents/Cards (103.0.0):
+    - MaterialComponents/Elevation
+    - MaterialComponents/Ink
+    - MaterialComponents/private/Icons/ic_check_circle
+    - MaterialComponents/private/Math
+    - MaterialComponents/Ripple
+    - MaterialComponents/ShadowLayer
+    - MaterialComponents/Shapes
+  - MaterialComponents/Elevation (103.0.0):
+    - MaterialComponents/private/Color
+    - MaterialComponents/private/Math
+  - MaterialComponents/Ink (103.0.0):
+    - MaterialComponents/private/Color
+    - MaterialComponents/private/Math
+  - MaterialComponents/private/Color (103.0.0)
+  - MaterialComponents/private/Icons/Base (103.0.0)
+  - MaterialComponents/private/Icons/ic_check_circle (103.0.0):
+    - MaterialComponents/private/Icons/Base
+  - MaterialComponents/private/Math (103.0.0)
+  - MaterialComponents/Ripple (103.0.0):
+    - MaterialComponents/AnimationTiming
+    - MaterialComponents/private/Color
+    - MaterialComponents/private/Math
+  - MaterialComponents/ShadowElevations (103.0.0)
+  - MaterialComponents/ShadowLayer (103.0.0):
+    - MaterialComponents/ShadowElevations
+  - MaterialComponents/Shapes (103.0.0):
+    - MaterialComponents/private/Color
+    - MaterialComponents/private/Math
+    - MaterialComponents/ShadowLayer
+
+DEPENDENCIES:
+  - MaterialComponents/Cards
+
+SPEC REPOS:
+  trunk:
+    - MaterialComponents
+
+SPEC CHECKSUMS:
+  MaterialComponents: 300839ef5e1dc4028ac422fa072f75ff3d2ad49c
+
+PODFILE CHECKSUM: a892282c34054d749d49a838e28c062947de59fc
+
+COCOAPODS: 1.8.4
