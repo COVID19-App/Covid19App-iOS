@@ -10,3 +10,4 @@ import Foundation
 import UIKit
 
 typealias Spacing = CGFloat
+typealias Localizable = String

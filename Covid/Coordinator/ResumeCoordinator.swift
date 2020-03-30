@@ -11,12 +11,10 @@ import UIKit
 
 final class ResumeCoordinator: BaseCoordinator {
 
-    override init(presenter: UIViewController?) {
-        super.init(presenter: presenter)
-    }
-
     override func start() {
+        navigation?.setNavigationBarHidden(true, animated: false)
         let controller = ResumeViewController()
+        controller.coodinator = self
         navigation?.pushViewController(controller, animated: false)
     }
 

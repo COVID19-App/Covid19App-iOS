@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_covidVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_covidVersionString[];
+FOUNDATION_EXPORT double Pods_CovidVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_CovidVersionString[];
 

@@ -11,12 +11,10 @@ import UIKit
 
 final class SplashCoordinator: BaseCoordinator {
 
-    override init(presenter: UIViewController?) {
-        super.init(presenter: presenter)
-    }
-
     override func start() {
-        let controller = ResumeViewController()
+        navigation?.setNavigationBarHidden(true, animated: false)
+        let controller: SplashViewController = .instantiate()
+        controller.coodinator = self
         navigation?.pushViewController(controller, animated: false)
     }
 

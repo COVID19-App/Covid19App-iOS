@@ -14,11 +14,21 @@ PODS:
   - MaterialComponents/Ink (103.0.0):
     - MaterialComponents/private/Color
     - MaterialComponents/private/Math
+  - MaterialComponents/NavigationDrawer (103.0.0):
+    - MaterialComponents/Elevation
+    - MaterialComponents/Palettes
+    - MaterialComponents/private/Math
+    - MaterialComponents/private/UIMetrics
+    - MaterialComponents/ShadowLayer
+  - MaterialComponents/Palettes (103.0.0)
+  - MaterialComponents/private/Application (103.0.0)
   - MaterialComponents/private/Color (103.0.0)
   - MaterialComponents/private/Icons/Base (103.0.0)
   - MaterialComponents/private/Icons/ic_check_circle (103.0.0):
     - MaterialComponents/private/Icons/Base
   - MaterialComponents/private/Math (103.0.0)
+  - MaterialComponents/private/UIMetrics (103.0.0):
+    - MaterialComponents/private/Application
   - MaterialComponents/Ripple (103.0.0):
     - MaterialComponents/AnimationTiming
     - MaterialComponents/private/Color
@@ -33,6 +43,7 @@ PODS:
 
 DEPENDENCIES:
   - MaterialComponents/Cards
+  - MaterialComponents/NavigationDrawer
 
 SPEC REPOS:
   trunk:
@@ -41,6 +52,6 @@ SPEC REPOS:
 SPEC CHECKSUMS:
   MaterialComponents: 300839ef5e1dc4028ac422fa072f75ff3d2ad49c
 
-PODFILE CHECKSUM: a892282c34054d749d49a838e28c062947de59fc
+PODFILE CHECKSUM: 3c73ca0326fe9c885c70e4c9e41a9b5b39b98f30
 
 COCOAPODS: 1.8.4

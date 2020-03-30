@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8095FCE64693B7B53E741853 /* Pods_covid.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D08669CC1074BAADDC73817F /* Pods_covid.framework */; };
+		11CB7E767A55380DF8B3D0B4 /* Pods_Covid.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25457010E293FFF690B43054 /* Pods_Covid.framework */; };
+		8711A5052430F40A00B352F0 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8711A5042430F40A00B352F0 /* MapViewController.swift */; };
 		8748FD5C242D1A5200955B1F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8748FD5B242D1A5200955B1F /* AppDelegate.swift */; };
 		8748FD60242D1A5200955B1F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8748FD5F242D1A5200955B1F /* ViewController.swift */; };
 		8748FD63242D1A5200955B1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8748FD61242D1A5200955B1F /* Main.storyboard */; };
@@ -37,6 +38,8 @@
 		8748FDBD242E6B9500955B1F /* ResumeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8748FDBC242E6B9500955B1F /* ResumeCoordinator.swift */; };
 		8748FDBF242E6C0700955B1F /* SplashCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8748FDBE242E6C0700955B1F /* SplashCoordinator.swift */; };
 		8748FDC1242E6C1A00955B1F /* MapCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8748FDC0242E6C1A00955B1F /* MapCoordinator.swift */; };
+		8748FDC5242EA89300955B1F /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8748FDC4242EA89300955B1F /* SplashViewController.swift */; };
+		8748FDC8242EAA8200955B1F /* Splash.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8748FDC7242EAA8200955B1F /* Splash.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,7 +75,10 @@
 
 /* Begin PBXFileReference section */
 		131AC52B23FD7997FF34BF8E /* Pods-covid.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-covid.release.xcconfig"; path = "Target Support Files/Pods-covid/Pods-covid.release.xcconfig"; sourceTree = "<group>"; };
+		21B56AAD18FDAA13634DABFB /* Pods-Covid.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Covid.release.xcconfig"; path = "Target Support Files/Pods-Covid/Pods-Covid.release.xcconfig"; sourceTree = "<group>"; };
+		25457010E293FFF690B43054 /* Pods_Covid.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Covid.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		68F07B829717CCA8DC046644 /* Pods-covid.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-covid.debug.xcconfig"; path = "Target Support Files/Pods-covid/Pods-covid.debug.xcconfig"; sourceTree = "<group>"; };
+		8711A5042430F40A00B352F0 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		8748FD58242D1A5200955B1F /* Covid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Covid.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8748FD5B242D1A5200955B1F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8748FD5F242D1A5200955B1F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -105,7 +111,9 @@
 		8748FDBC242E6B9500955B1F /* ResumeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResumeCoordinator.swift; sourceTree = "<group>"; };
 		8748FDBE242E6C0700955B1F /* SplashCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashCoordinator.swift; sourceTree = "<group>"; };
 		8748FDC0242E6C1A00955B1F /* MapCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapCoordinator.swift; sourceTree = "<group>"; };
-		D08669CC1074BAADDC73817F /* Pods_covid.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_covid.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8748FDC4242EA89300955B1F /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		8748FDC7242EAA8200955B1F /* Splash.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Splash.strings; sourceTree = "<group>"; };
+		B8BC281611949945A59BADF8 /* Pods-Covid.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Covid.debug.xcconfig"; path = "Target Support Files/Pods-Covid/Pods-Covid.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,8 +122,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8748FD7B242D2B0D00955B1F /* Model.framework in Frameworks */,
-				8095FCE64693B7B53E741853 /* Pods_covid.framework in Frameworks */,
 				8748FDA3242E61BD00955B1F /* Networking.framework in Frameworks */,
+				11CB7E767A55380DF8B3D0B4 /* Pods_Covid.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,9 +147,18 @@
 		652DA9D5C503EBC1F1A392A2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D08669CC1074BAADDC73817F /* Pods_covid.framework */,
+				25457010E293FFF690B43054 /* Pods_Covid.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8711A5032430F3FD00B352F0 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				8711A5042430F40A00B352F0 /* MapViewController.swift */,
+				8748FD87242D54AF00955B1F /* Map.storyboard */,
+			);
+			path = Map;
 			sourceTree = "<group>";
 		};
 		8748FD4F242D1A5200955B1F = {
@@ -172,7 +189,6 @@
 				8748FD5B242D1A5200955B1F /* AppDelegate.swift */,
 				8748FD81242D521700955B1F /* Coordinator */,
 				8748FD84242D532800955B1F /* Scenes */,
-				8748FD8B242D584B00955B1F /* Controllers */,
 				8748FDA9242E61D100955B1F /* Utils */,
 				8748FD5F242D1A5200955B1F /* ViewController.swift */,
 				8748FD61242D1A5200955B1F /* Main.storyboard */,
@@ -198,8 +214,8 @@
 				8748FD82242D522100955B1F /* Coordinator.swift */,
 				8748FDB8242E6B8900955B1F /* BaseCoordinator.swift */,
 				8748FDBA242E6B8F00955B1F /* AppCoordinator.swift */,
-				8748FDBC242E6B9500955B1F /* ResumeCoordinator.swift */,
 				8748FDBE242E6C0700955B1F /* SplashCoordinator.swift */,
+				8748FDBC242E6B9500955B1F /* ResumeCoordinator.swift */,
 				8748FDC0242E6C1A00955B1F /* MapCoordinator.swift */,
 			);
 			path = Coordinator;
@@ -208,21 +224,12 @@
 		8748FD84242D532800955B1F /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
-				8748FD85242D533600955B1F /* Splash.storyboard */,
-				8748FD87242D54AF00955B1F /* Map.storyboard */,
+				8711A5032430F3FD00B352F0 /* Map */,
+				8748FDC3242E75C900955B1F /* Splash */,
+				8748FDC2242E75C500955B1F /* Resume */,
 				8748FD89242D552000955B1F /* Menu.storyboard */,
 			);
 			path = Scenes;
-			sourceTree = "<group>";
-		};
-		8748FD8B242D584B00955B1F /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				8748FD8C242D587400955B1F /* ResumeViewController.swift */,
-				8748FDAA242E61DC00955B1F /* Cells */,
-				8748FD8E242E611E00955B1F /* Sections */,
-			);
-			path = Controllers;
 			sourceTree = "<group>";
 		};
 		8748FD8E242E611E00955B1F /* Sections */ = {
@@ -264,11 +271,33 @@
 			path = Cells;
 			sourceTree = "<group>";
 		};
+		8748FDC2242E75C500955B1F /* Resume */ = {
+			isa = PBXGroup;
+			children = (
+				8748FD8C242D587400955B1F /* ResumeViewController.swift */,
+				8748FDAA242E61DC00955B1F /* Cells */,
+				8748FD8E242E611E00955B1F /* Sections */,
+			);
+			path = Resume;
+			sourceTree = "<group>";
+		};
+		8748FDC3242E75C900955B1F /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				8748FDC7242EAA8200955B1F /* Splash.strings */,
+				8748FD85242D533600955B1F /* Splash.storyboard */,
+				8748FDC4242EA89300955B1F /* SplashViewController.swift */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
 		91586B639349CFFADEC88E85 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				68F07B829717CCA8DC046644 /* Pods-covid.debug.xcconfig */,
 				131AC52B23FD7997FF34BF8E /* Pods-covid.release.xcconfig */,
+				B8BC281611949945A59BADF8 /* Pods-Covid.debug.xcconfig */,
+				21B56AAD18FDAA13634DABFB /* Pods-Covid.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -403,6 +432,7 @@
 				8748FD65242D1A5400955B1F /* Assets.xcassets in Resources */,
 				8748FD88242D54AF00955B1F /* Map.storyboard in Resources */,
 				8748FD8A242D552000955B1F /* Menu.storyboard in Resources */,
+				8748FDC8242EAA8200955B1F /* Splash.strings in Resources */,
 				8748FD63242D1A5200955B1F /* Main.storyboard in Resources */,
 				8748FD86242D533600955B1F /* Splash.storyboard in Resources */,
 			);
@@ -440,7 +470,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-covid-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Covid-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -453,15 +483,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-covid/Pods-covid-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Covid/Pods-Covid-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-covid/Pods-covid-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Covid/Pods-Covid-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-covid/Pods-covid-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Covid/Pods-Covid-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -474,6 +504,7 @@
 				8748FD90242E613700955B1F /* Sections.swift in Sources */,
 				8748FD83242D522100955B1F /* Coordinator.swift in Sources */,
 				8748FD60242D1A5200955B1F /* ViewController.swift in Sources */,
+				8711A5052430F40A00B352F0 /* MapViewController.swift in Sources */,
 				8748FDB0242E61F200955B1F /* MiniCardCell.swift in Sources */,
 				8748FD5C242D1A5200955B1F /* AppDelegate.swift in Sources */,
 				8748FDAC242E61E300955B1F /* HeaderCell.swift in Sources */,
@@ -485,6 +516,7 @@
 				8748FD92242E616500955B1F /* MiniCardSection.swift in Sources */,
 				8748FD94242E616E00955B1F /* CardSection.swift in Sources */,
 				8748FDB9242E6B8900955B1F /* BaseCoordinator.swift in Sources */,
+				8748FDC5242EA89300955B1F /* SplashViewController.swift in Sources */,
 				8748FDBF242E6C0700955B1F /* SplashCoordinator.swift in Sources */,
 				8748FDBB242E6B8F00955B1F /* AppCoordinator.swift in Sources */,
 				8748FDB6242E624500955B1F /* Typealias.swift in Sources */,
@@ -657,7 +689,7 @@
 		};
 		8748FD6D242D1A5400955B1F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 68F07B829717CCA8DC046644 /* Pods-covid.debug.xcconfig */;
+			baseConfigurationReference = B8BC281611949945A59BADF8 /* Pods-Covid.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -677,7 +709,7 @@
 		};
 		8748FD6E242D1A5400955B1F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 131AC52B23FD7997FF34BF8E /* Pods-covid.release.xcconfig */;
+			baseConfigurationReference = 21B56AAD18FDAA13634DABFB /* Pods-Covid.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

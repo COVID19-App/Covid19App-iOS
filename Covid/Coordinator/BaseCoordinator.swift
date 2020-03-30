@@ -13,12 +13,18 @@ open class BaseCoordinator: Coordinator {
 
     var presenter: UIViewController?
 
-    var parent: Coordinator?
+    var delegate: CoordinatorDelegate?
 
+    var parent: Coordinator?
     var children: [Coordinator] = []
 
     init(presenter: UIViewController?) {
         self.presenter = presenter
+    }
+
+    convenience init() {
+        let navigation = UINavigationController()
+        self.init(presenter: navigation)
     }
 
     func start() { }

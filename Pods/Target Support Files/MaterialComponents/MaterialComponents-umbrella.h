@@ -26,6 +26,14 @@
 #import "MDCInkGestureRecognizer.h"
 #import "MDCInkTouchController.h"
 #import "MDCInkView.h"
+#import "MaterialNavigationDrawer.h"
+#import "MDCBottomDrawerHeader.h"
+#import "MDCBottomDrawerPresentationController.h"
+#import "MDCBottomDrawerState.h"
+#import "MDCBottomDrawerTransitionController.h"
+#import "MDCBottomDrawerViewController.h"
+#import "MaterialPalettes.h"
+#import "MDCPalettes.h"
 #import "MaterialRipple.h"
 #import "MDCRippleTouchController.h"
 #import "MDCRippleView.h"
@@ -42,6 +50,8 @@
 #import "MDCShapedShadowLayer.h"
 #import "MDCShapedView.h"
 #import "MDCShapeGenerating.h"
+#import "MaterialApplication.h"
+#import "UIApplication+MDCAppExtensions.h"
 #import "MaterialColor.h"
 #import "UIColor+MaterialBlending.h"
 #import "UIColor+MaterialDynamic.h"
@@ -51,6 +61,8 @@
 #import "MaterialIcons+ic_check_circle.h"
 #import "MaterialMath.h"
 #import "MDCMath.h"
+#import "MaterialUIMetrics.h"
+#import "MDCLayoutMetrics.h"
 
 FOUNDATION_EXPORT double MaterialComponentsVersionNumber;
 FOUNDATION_EXPORT const unsigned char MaterialComponentsVersionString[];

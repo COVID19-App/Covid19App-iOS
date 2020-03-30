@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="sLl-TN-FzG">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Splash View Controller-->
+        <scene sceneID="fKW-EZ-QJX">
+            <objects>
+                <viewController storyboardIdentifier="SplashViewController" id="sLl-TN-FzG" customClass="SplashViewController" customModule="Covid" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="zB4-yJ-nc2">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4hF-JO-XAI">
+                                <rect key="frame" x="0.0" y="642" width="375" height="25"/>
+                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="25" id="qqp-Ce-y5c"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7FP-tV-1Ca">
+                                <rect key="frame" x="-4.5" y="175" width="384" height="150"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splash" translatesAutoresizingMaskIntoConstraints="NO" id="htU-6f-CBg">
+                                        <rect key="frame" x="0.0" y="0.0" width="384" height="150"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="htU-6f-CBg" firstAttribute="top" secondItem="7FP-tV-1Ca" secondAttribute="top" id="Bbf-Bi-waU"/>
+                                    <constraint firstItem="htU-6f-CBg" firstAttribute="leading" secondItem="7FP-tV-1Ca" secondAttribute="leading" id="JDq-1F-UWQ"/>
+                                    <constraint firstAttribute="bottom" secondItem="htU-6f-CBg" secondAttribute="bottom" id="SQa-ri-1jf"/>
+                                    <constraint firstAttribute="height" constant="150" id="gcv-c8-bsG"/>
+                                    <constraint firstAttribute="trailing" secondItem="htU-6f-CBg" secondAttribute="trailing" id="zu0-bp-AcO"/>
+                                </constraints>
+                            </view>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="UGY-5Y-MB6">
+                                <rect key="frame" x="16" y="341" width="343" height="57"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="_title_" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VOh-Pu-SYR">
+                                        <rect key="frame" x="0.0" y="0.0" width="343" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="_description_" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lgo-vH-9dW">
+                                        <rect key="frame" x="0.0" y="36.5" width="343" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="UGY-5Y-MB6" firstAttribute="leading" secondItem="OIh-EM-amh" secondAttribute="leading" constant="16" id="0jH-j8-ccf"/>
+                            <constraint firstItem="UGY-5Y-MB6" firstAttribute="top" secondItem="7FP-tV-1Ca" secondAttribute="bottom" constant="16" id="B5A-2q-dUe"/>
+                            <constraint firstItem="7FP-tV-1Ca" firstAttribute="centerY" secondItem="zB4-yJ-nc2" secondAttribute="centerY" multiplier="0.75" id="RXt-98-mTG"/>
+                            <constraint firstItem="4hF-JO-XAI" firstAttribute="leading" secondItem="OIh-EM-amh" secondAttribute="leading" id="XeA-lq-crl"/>
+                            <constraint firstItem="OIh-EM-amh" firstAttribute="bottom" secondItem="4hF-JO-XAI" secondAttribute="bottom" id="bJz-Me-tv6"/>
+                            <constraint firstItem="OIh-EM-amh" firstAttribute="trailing" secondItem="UGY-5Y-MB6" secondAttribute="trailing" constant="16" id="kh4-Cc-r2g"/>
+                            <constraint firstItem="OIh-EM-amh" firstAttribute="trailing" secondItem="4hF-JO-XAI" secondAttribute="trailing" id="oLt-QV-blk"/>
+                            <constraint firstItem="7FP-tV-1Ca" firstAttribute="centerX" secondItem="zB4-yJ-nc2" secondAttribute="centerX" id="omi-0S-w9G"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="OIh-EM-amh"/>
+                    </view>
+                    <connections>
+                        <outlet property="descriptionLabel" destination="lgo-vH-9dW" id="376-bZ-IzL"/>
+                        <outlet property="titleLabel" destination="VOh-Pu-SYR" id="sz3-vT-lad"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kOm-8u-dwt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="107" y="116"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="splash" width="384" height="384"/>
+    </resources>
+</document>

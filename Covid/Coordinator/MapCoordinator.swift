@@ -11,12 +11,9 @@ import UIKit
 
 final class MapCoordinator: BaseCoordinator {
 
-    override init(presenter: UIViewController?) {
-        super.init(presenter: presenter)
-    }
-
     override func start() {
-        let controller = ResumeViewController()
+        navigation?.setNavigationBarHidden(true, animated: false)
+        let controller: MapViewController = .instantiate()
         navigation?.pushViewController(controller, animated: false)
     }
 

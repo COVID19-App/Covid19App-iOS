@@ -11,41 +11,41 @@ import UIKit
 
 final class AppCoodinator: BaseCoordinator {
 
-    static let main = AppCoodinator()
+    static let main = AppCoodinator(presenter: nil)
 
-    private var window: UIWindow = {
+    var window: UIWindow = {
         let frame = UIScreen.main.bounds
         let window = UIWindow(frame: frame)
         return window
     }()
 
-    init() {
-        let navigation = UINavigationController()
-        super.init(presenter: navigation)
-    }
-
     override func start() {
-        startFromResume()
-        window.rootViewController = presenter
+        SplashCoordinator(app: self).start()
         window.makeKeyAndVisible()
     }
 
-    func startFromResume() {
-        let coordinator = ResumeCoordinator(presenter: presenter)
-        add(child: coordinator)
-        coordinator.start()
+}
+
+extension AppCoodinator: CoordinatorDelegate {
+
+    func didFinish(coordinator: Coordinator) {
+        if coordinator is SplashCoordinator { MapCoordinator(app: self).start() }
     }
 
-    func startFromSplash() {
-        let coordinator = SplashCoordinator(presenter: presenter)
-        add(child: coordinator)
-        coordinator.start()
+}
+
+private extension BaseCoordinator {
+
+    convenience init<T>(parent: T) where T: Coordinator, T: CoordinatorDelegate {
+        self.init()
+        self.parent = parent
+        self.delegate = parent
+        parent.add(child: self)
     }
 
-    func startFromMap() {
-        let coordinator = MapCoordinator(presenter: presenter)
-        add(child: coordinator)
-        coordinator.start()
+    convenience init(app: AppCoodinator) {
+        self.init(parent: app)
+        app.window.rootViewController = self.presenter
     }
 
 }
